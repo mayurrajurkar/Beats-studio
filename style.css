@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("assets/icons/background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: right bottom;
+  background-size: auto 100%;
+  background-color: #001a00;
+
+    
+
+    
+     
+}
+
+
+.first-half{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40%;
+    left: 0;
+
+    
+}
+.first-half div nav ul li{
+    float: left;
+    
+}
+.first-half div{
+    width: 100%;
+    height: 80px;
+}
+.first-half div nav ul li img{
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+    padding-left: 90px;
+   
+}
+.content{
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 90px;
+    height: 200px;
+    padding-bottom: 60px;
+}
+.content p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.bold{
+    padding-bottom: 20px;
+    
+    font-size: 300%;
+    font-weight: bolder;
+}
+.last{
+    width: 100%;
+    
+
+    
+    
+}
+.video{
+
+    width: 50%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    left: 0;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+video{
+    
+    
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 2px white;
+       
+    
+}
+
+.info{
+    
+    margin: 0;
+    position: relative;
+    top: 0;
+    bottom: 60%;
+    right: 0;
+    left: 45%;
+    color: white;
+
+
+}
+.gree{
+    color: green;
+    padding-bottom: 25px;
+}
+.hr1{
+    padding-bottom: 1.5px;
+    margin-bottom: 4px;
+    background-color: white;
+} 
+.hr2{
+    background-color: white;
+    padding-bottom: 0.5px;
+}
+.info .p1{
+    color: red;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+
+
+.next-half{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 60%;
+}
+.navbar2 ul li{
+    float: left;
+}
+.navbar2 ul  li p {
+    color: white;
+    padding-right: 60px;
+}
+.navbar2 ul , .first-half div nav ul{
+    list-style:none;
+}
+.navbar2{
+    padding-top: 15px;
+}
+.next-half .image {
+    -webkit-animation: anim 10s infinite linear;
+    animation: anim 10s infinite linear;
+    
+    
+}
+
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+.mov{
+    filter: invert(100%);
+    padding-right: 5.5px;
+    
+}
+.mover{
+    float: right;
+    padding-right: 10px;
+    
+    padding-top: 285px;
+}
+.image{
+    padding-top: 15px;
+    padding-right: 80px;
+}
+#first{
+    text-align: center;
+    font-weight: bold;
+    
+    padding-top: 10px;
+    
+    padding-bottom: 20px;
+}
+.final{
+    width: 400px;
+}
